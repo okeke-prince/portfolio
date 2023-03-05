@@ -27,7 +27,7 @@ const Foot = () => {
                 </form>
             </section>
             <section className={style.right}>
-                <a href="#"><img src={facebook} height={25} alt="" srcset="" /></a>
+                <a href="https://www.google.com/"><img src={facebook} height={25} alt="" srcset="" /></a>
                 <a href="https://twitter.com/u_d_ooo"><img src={twitter} alt="" srcset="" /></a>
                 <a href="https://www.linkedin.com/in/okeke-prince-785323265/"><img src={linkedin} alt="" srcset="" height={25}/></a>
             </section>

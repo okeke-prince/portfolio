@@ -8,7 +8,7 @@ const Button = (props) => {
 
     return (
         <div className={ButtonCss.main}>
-            <a  className={ButtonCss.link} onClick={props.li} id={props.id} href="#">{props.content}</a>
+            <a  className={ButtonCss.link} onClick={props.li} id={props.id} href="/">{props.content}</a>
         </div>
     );
 }

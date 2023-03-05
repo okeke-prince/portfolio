@@ -1,4 +1,4 @@
-import React, { useRef,useState } from 'react';
+// import React, { useRef,useState } from 'react';
 import HeaderCss from "../components/head.module.css"
 import Button from './Button';
 
@@ -7,7 +7,8 @@ const Head = () => {
 
 
     const click = (e) => {
-        
+        var id = e.target.id;
+        // console.log(id);
         if(id === "one"){
             window.scrollTo({ behavior: "smooth", left: 0, top: 750}); 
         }
